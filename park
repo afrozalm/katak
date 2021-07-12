@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T11:08:03.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.8.4" etag="FORbzQzeOxbtsXsg-0o1" type="github"><diagram id="vUmUCojlCfpTTrrbyaL0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-12T11:17:58.333Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Rlr_xFsTOxyy68r8HD_5" version="14.8.4" type="github">
+  <diagram id="vUmUCojlCfpTTrrbyaL0" name="Page-1">
+    <mxGraphModel dx="1806" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-1" value="LB" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-2" value="Gateway" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-3" value="Write Master" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="310" y="590" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-4" value="Read Replica" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="590" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-5" value="Read Replica" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="490" y="590" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v9ft-9sJ4h4nfW5JpJbK-6" target="v9ft-9sJ4h4nfW5JpJbK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-6" value="Booker Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v9ft-9sJ4h4nfW5JpJbK-7" target="v9ft-9sJ4h4nfW5JpJbK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v9ft-9sJ4h4nfW5JpJbK-7" target="v9ft-9sJ4h4nfW5JpJbK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-7" value="Query Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-11" value="Pricing Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-12" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="290" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-13" value="User Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-14" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-15" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v9ft-9sJ4h4nfW5JpJbK-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-16" value="Kafka Event Stream" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ft-9sJ4h4nfW5JpJbK-19" value="Downstream Services" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="410" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
